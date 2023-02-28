@@ -41,7 +41,7 @@ body{
 }
 .main-title-work h2{
     font-size: 40px;
-    margin-left: 620px;  
+    margin-left: 680px;  
 }
 .work-data{
     display: flex;   
@@ -49,6 +49,9 @@ body{
 .work-data .img img{
     width: 600px;
     height: 600px;
+}
+.work-data .work-detail{
+    margin: 0 70px;
 }
 .work-data .work-detail h3{
     padding: 10px;
@@ -69,4 +72,73 @@ body{
     color:white;
     background-color: rgb(221, 99, 160);
 }
+#control{
+    margin: 60px 0;
+}
+.control-data .main-title h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.main-title p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#control .container{
+    display: flex;
+}
+.control-img img{
+    width: 600px;
+    height: 600px;
+}
+.inner-data{
+    display: flex;
+}
+.inner-data h3{
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.inner-data p{
+    font-size: 19PX;
+}
+.inner-data .mobile{
+    padding: 30px;
+}
+.control-data .inner-data img{
+    width: 70Px;
+    height: 80px;
+}
+#safe{
+    margin: 60px 0;
+}
+#safe .container {
+    display: flex;
+}
+.safe-data .main-title h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.main-title p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.safe-img img{
+    width: 500px;
+    height: 600px;
+}
+.safe-data{
+    padding: 0 70px;
+}
+.safe-data .inner-data img{
+    width: 70Px;
+    height: 80px;
+}
+.inner-data .support{
+    padding: 30px;
+}
+#results{
+    margin: 60px 0;
+}
+
+
 
