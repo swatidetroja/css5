@@ -157,25 +157,32 @@ button{
     font-size: 20px;
     background-color: #f20091;
 }
-
 .additional{
     background-color: #1f2836;
     color: white;
 }
+#additional, .main-title{
+    padding-top : 50px;
+}
 .help{
+    width: 800px;
+    height: 150px;
     display: inline-block;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    row-gap: 50px;
-    column-gap: 50px;
-    
+    /* justify-content: space-evenly; */
+    row-gap: 40px;
+    column-gap: 70px;
+
 }
-a h4{
-    width: 500px;
-    font-size: 24px;
-    color: white;
-    text-align: left;
+.help a{
+    width: 50%;
+    height: 50px;
+    /* background-color: #f20091; */
+    color: #fff;
+    font-size: 20px;
+
+    
 }
 
 
