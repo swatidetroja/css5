@@ -170,20 +170,51 @@ button{
     display: inline-block;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
-    /* row-gap: 40px; */
-    /* column-gap: 70px; */
-
+    justify-content: space-evenly;
+    row-gap: 2px;
 }
 .help a{
     width: 50%;
-    height: 50px;
-    /* background-color: #f20091; */
     color: #fff;
-    font-size: 20px;
-
-    
+    font-size: 22px; 
 }
+#freelancer-About{
+    background-color: #161e2c;
+    padding-top:50px;
+}
+.main{
+    display: flex;
+    gap: 0 50px;
+}
+.main a, ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff; 
+    font-size: 15px; 
+}
+.freelancer-img, i {
+    font-size: 25px;
+    display: inline-block;
+    padding: 5px;
+
+}
+.freelancer-img{
+    width:130px;
+    height: 150px;
+    color: #fff; 
+}
+.main li{
+    padding-bottom: 5px;
+}
+.main h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.main img{
+    padding-bottom: 10px;
+}
+
 
 
 
