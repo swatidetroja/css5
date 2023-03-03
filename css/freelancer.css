@@ -259,29 +259,25 @@ button{
 .main img{
     padding-bottom: 10px;
 }
-.register{
-    display: inline;
+.register .container{
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
+    /* flex-wrap: wrap; */
+    margin-top: 20px;
 }
 .total-job{
     width: 50%;
     display: flex;
     flex-wrap: wrap;
     color: #fff;
+    /* margin-left: 40px; */
 }
-.total-job .job1{
-    width: 25%;
-}
-.total-job .job2{
-    width: 25%;
+.job1{
+    margin-right: 150px;
 }
 .detail{
     width: 50%;
     display: flex;
     display: inline-block;
-    
     color: #fff;
 }
 
