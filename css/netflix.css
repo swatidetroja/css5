@@ -20,10 +20,10 @@ body{
     
 }
 .backg::before{
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
     content: '';
-    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2));
     position: absolute;
+    inset: 0;
     z-index: -1;
     
 }
