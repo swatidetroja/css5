@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+#main-header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+#main-header{
+    background-color: #d16474;
+}
+.header-left{
+    margin-top: 30px;
+}
+.header-left img{
+    width: 100px;
+    height: 50px;
+}
+.header-right ul {
+    display: inline-block;
+}
+.header-right li{
+    display: inline-block;
+}
+.header-right a,
+.header-left a
+{
+    color: #fff;
+}
+.header-right li a{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10PX;
+    font-size: 18px;
+}
+.header-right button{
+    padding:  10px 18px;
+    border:1px solid white;  
+    border-radius: 5px;
+    background-color:#d16474;
+    color: #fff;
+}
+.header-right button:hover{
+    background-color: #1dbf73;
+}
+.business{
+    width: 650px;
+    height: 450px;
+    font-size: 60px; 
+    margin-top: 150px;
+}
+.searchbaricon{
+    width: 650px;
+    height: 50px;
+    background-color:white;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    padding-left: 15px;  
+}
+.searchbaricon i{
+    font-size: 20px;
+    color:#777;
+}
+.searchbaricon input{
+    padding: 10px 10px;
+    font-size: 15px;
+    flex: 1px;
+    border: none;
+    outline: none;
+} 
+button{
+    padding: 15px 35px;
+    background-color: #1dbf73;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.popular-box{
+    width: 600px;
+    height: 40px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.popular h3{
+    font-size: 17px;
+}
+.b1,
+.b2,
+.b3,
+.b4
+{
+    font-size: 15px;
+    border-radius:30px;
+    border: 1px solid white;
+    padding: 3px 12px;
+    font-weight: bold;
+}
+
+.popular,
+.b1,
+.b2,
+.b3,
+.b4
+{
+    margin-right: 12px;
+}

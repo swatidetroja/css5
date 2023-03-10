@@ -1,0 +1,55 @@
+.combi > p{
+    color: red;
+}
+.combi h2+p{
+    color: blue;
+}
+.combi div~p{
+    color: blueviolet;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: chartreuse;
+}
+a:visited{
+    color: aqua;
+}
+ul li:first-child p {
+    color: pink;
+}
+ul li:last-child {
+    color: blue;
+}
+ul li:nth-child(2) {
+    color: coral;
+}
+p i:first-child{
+    color: darkkhaki;
+}
+p:first-child i{
+    color: darkmagenta;
+}
+input:focus{
+    outline: none;
+    border: 2px solid red;
+}
+.logo h1::first-letter{
+    font-size: 50px;
+    color: brown;
+}
+.logo p::first-line{
+    color: chocolate;
+}
+.logo h1+p::first-line{
+    color: blue;
+}
+.logo h1::before{
+    content: '*';
+}
+.logo h1::after{
+    content: '--';
+    font-size: 40px;
+    color: aqua;
+}
