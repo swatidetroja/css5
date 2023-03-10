@@ -57,5 +57,9 @@ h2{
 .rotatey:hover img{
     transform: rotatey(60deg);
 }
+.rotatey:hover img{
+    transform: rotatey(60deg);
+}
+
 
 
