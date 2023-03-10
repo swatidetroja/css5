@@ -3,9 +3,114 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    width: 1700px;
+body{
+    font-family: 'Golos Text', sans-serif;
 }
-.header-left{
-    width: 500px;
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.backg{
+    background: url(../images/netflix-background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+}
+.backg::before{
+    content: '';
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2));
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    z-index: 8;
+    
+}
+.header-left img{
+    width: 150px;
+    height: 50px;
+}
+i{
+    color: white;
+    padding-left: 10px;
+}
+button {
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.537);
+    margin-right: 15px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+select{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+   
+}
+.s{
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 13px  20px;
+    border-radius: 5px;
+}
+.s:hover{
+    background-color: rgba(255, 0, 0, 0.711);
+}
+.detail{
+    text-align: center;
+    z-index: 8;
+}
+.detail h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 200px ;
+}
+.detail h1+p{
+    font-size: 25px;
+    line-height: 2;
+    color: white;
+}
+.detail p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+input{
+    width:450px ;
+    height: 57.5px;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.293);
+    outline: none;
+    border: 2px solid white;
+    padding-left: 15px;
+    color: white;
+    border-radius: 5px;
+}
+.get{
+    background-color: red;
+    padding: 18.5px 30px;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.get:hover{
+    background-color:  rgba(255, 0, 0, 0.711);
 }
