@@ -221,67 +221,61 @@ header{
     row-gap: 10px;
     column-gap: 20px;
     justify-content: space-between;
+  
 }
-.projects
-.Logo,
-.Label,
-.Mobile,
-.Package,
-.Interior,
-.Web{
-    width: 32.2%;  
-    
-   
+.box{
+    width: 385px;
+    height: 300px;
+    margin-top:20px;
+    position: relative;  
+    overflow: hidden;
 }
-.Logo img,
-.Label img,
-.Mobile img,
-.Package img,
-.Interior img,
-.Web img{
-    transition: all 1.5s;
+.inner-data a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;  
+    opacity: 0;
 }
-.Logo:hover img{
-    transform: scale(1.1);
+.inner-data a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
 }
-.Label:hover img{
-    transform: scale(1.1);
-}
-.Mobile:hover img{
-    transform: scale(1.1);
-}
-.Package:hover img{
-    transform: scale(1.1);
-}
-.Interior:hover img{
-    transform: scale(1.1);
-}
-.Web:hover img{
-    transform: scale(1.1);
-}
-img .discover{
-   width: 100%;
+.box img{
+    width: 100%;
     height: 100%;
+    transition: all 1.5s;
+    
+ 
 }
-.discover{
-    width: 160px;
-    padding: 10px;
-    text-align: center;
-    background-color: rgba(97, 65, 65, 0.522);
-    border: 2px solid white; 
+.box:hover img{
+    transform: scale(1.1);
+}
+.inner-data{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    inset: 0;
+    position: absolute;
+}
+.box:hover .box::before,
+.box:hover .inner-data a{
+    opacity: 1;
 }
 
-.projects, img{
-    font-size: 20px;
-    width: 100%;
-}
 .project-button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0 50px 0 ;
+    margin: 90px 0 50px 0 ;
 }
 .projects h3{
+    font-size: 22px;
     line-height: 1.5;
 }
 button{
