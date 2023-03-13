@@ -229,9 +229,48 @@ header{
 .Package,
 .Interior,
 .Web{
-    width: 32.2%;
+    width: 32.2%;  
+    
    
 }
+.Logo img,
+.Label img,
+.Mobile img,
+.Package img,
+.Interior img,
+.Web img{
+    transition: all 1.5s;
+}
+.Logo:hover img{
+    transform: scale(1.1);
+}
+.Label:hover img{
+    transform: scale(1.1);
+}
+.Mobile:hover img{
+    transform: scale(1.1);
+}
+.Package:hover img{
+    transform: scale(1.1);
+}
+.Interior:hover img{
+    transform: scale(1.1);
+}
+.Web:hover img{
+    transform: scale(1.1);
+}
+img .discover{
+   width: 100%;
+    height: 100%;
+}
+.discover{
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(97, 65, 65, 0.522);
+    border: 2px solid white; 
+}
+
 .projects, img{
     font-size: 20px;
     width: 100%;
@@ -241,6 +280,9 @@ header{
     justify-content: center;
     align-items: center;
     margin: 50px 0 50px 0 ;
+}
+.projects h3{
+    line-height: 1.5;
 }
 button{
     border: none;
@@ -289,7 +331,7 @@ button{
 .freelancer-img, i {
     font-size: 20px;
     display: inline-block;
-    /* padding: 5px; */
+    padding: 5px;
     padding-right:15px;
     margin-bottom: 15px;
 }
