@@ -78,7 +78,7 @@ li:last-child::after {
 /*************************************************/
 .container .Furniture{
     margin-top: 50px;
-    /* border: 1px solid pink; */
+    border: 1px solid pink;
     display: flex; 
 }
 .home-decore{
@@ -94,7 +94,7 @@ li:last-child::after {
 }
 .home-decore, .kitchen{
     width: 50%;
-    /* border: 1px solid rgb(188, 184, 184); */
+    border: 1px solid rgb(188, 184, 184);
     margin: 15px;   
 }
 .kitchen .home-appliance, .auto-parts{
