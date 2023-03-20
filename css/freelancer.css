@@ -10,7 +10,6 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
-<<<<<<< HEAD
 header{
     margin-top: 30px;  
 }
@@ -104,9 +103,6 @@ header{
     line-height: 1.5;
 
 }
-
-=======
->>>>>>> 83e150413dd8acf081d74f754233c58e0483fe41
 #possibilities{
     margin: 60px 0;
 }
@@ -167,18 +163,13 @@ header{
     text-align: center;
     border-radius: 5px;
     color:white;
-<<<<<<< HEAD
     padding: 10px;
     background-color: #f20091;
-=======
     background-color: rgb(221, 99, 160);
->>>>>>> 83e150413dd8acf081d74f754233c58e0483fe41
 }
 #control{
     margin: 60px 0;
 }
-<<<<<<< HEAD
-=======
 .control-data .main-title h2{
     font-size: 40px;
     margin-bottom: 30px;
@@ -187,7 +178,6 @@ header{
     font-size: 24px;
     margin-bottom: 30px;
 }
->>>>>>> 83e150413dd8acf081d74f754233c58e0483fe41
 #control .container{
     display: flex;
 }
@@ -219,8 +209,6 @@ header{
 #safe .container {
     display: flex;
 }
-<<<<<<< HEAD
-=======
 .safe-data .main-title h2{
     font-size: 40px;
     margin-bottom: 30px;
@@ -229,7 +217,6 @@ header{
     font-size: 24px;
     margin-bottom: 30px;
 }
->>>>>>> 83e150413dd8acf081d74f754233c58e0483fe41
 .safe-img img{
     width: 500px;
     height: 600px;
@@ -244,7 +231,6 @@ header{
 #results{
     margin: 60px 0;
 }
-<<<<<<< HEAD
 .projects {
     display: flex;
     flex-wrap: wrap;  
@@ -253,7 +239,6 @@ header{
     justify-content: space-between;
 }
 .projects
-=======
 .main-title h2{
     font-size: 40px;
     margin-bottom: 30px;
@@ -268,14 +253,12 @@ header{
     justify-content: space-between;
 }
 .projects,
->>>>>>> 83e150413dd8acf081d74f754233c58e0483fe41
 .Logo,
 .Label,
 .Mobile,
 .Package,
 .Interior,
-<<<<<<< HEAD
-.Web{
+.Web,{
     width: 32.2%;
    
 }
@@ -376,7 +359,7 @@ button{
     display: flex;
     display: inline-block;
     color: #fff;
-=======
+}
 .Web, img{
     display: inline-block;
     margin: 5px;
@@ -398,14 +381,4 @@ button{
     font-size: 20px;
     padding: 15px;
     background-color: rgb(221, 99, 160);
->>>>>>> 83e150413dd8acf081d74f754233c58e0483fe41
 }
-
-
-
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 83e150413dd8acf081d74f754233c58e0483fe41
