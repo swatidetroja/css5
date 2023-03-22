@@ -101,6 +101,90 @@
                 </div>
             </div>
         </section>
+        <section id="trending-iteams">
+            <div class="container">
+                <h1>Trending Iteam</h1>
+                <div class="swiper iteams">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="iteam-box">
+                                <div class="iteam-img">
+                                    <img src="./images/bottle.jpg" alt="">
+                                </div>
+                                <h3>Lusto Consectetur Adipis Duis Inject Humour</h3>
+                                
+                                <a href="#">
+                                    (1)
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="iteam-box">
+                                <img src="./images/frock.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="iteam-box">
+                                <img src="./images/chair.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="iteam-box">
+                                <img src="./images/shirt.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="iteam-box">
+                                <img src="./images/mobile.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    // Navigation arrows
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    breakpoints: {
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 4,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 5,
+                            spaceBetween: 50,
+                        },
+                    },
+                });
+            </script>
+        </section>
         <section class="from-the-blog">
             <div class="container">
                 <div class="swiper main-blog">
@@ -124,9 +208,11 @@
                                 <div class="content-outer">
                                     <h1>18 july, 2021</h1>
                                     <p>Risus Retium Tortor Met</p>
-                                    <p>You’re only as good as your last collection, which is an enormous pressure. I</p>
+                                    <p>You’re only as good as your last collection, which is an enormous pressure. I
+                                    </p>
                                 </div>
                             </div>
+
                         </div>
                         <div class="swiper-slide">
                             <div class="blog">
@@ -261,7 +347,7 @@
                         },
                         1024: {
                             slidesPerView: 3,
-                            spaceBetween: 50,
+                            spaceBetween: 0,
                         },
                     },
                 });
