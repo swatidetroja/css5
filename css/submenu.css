@@ -12,7 +12,7 @@ header .container{
     justify-content: space-between;
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
 }
-header nav ul{
+header nav > ul {
     display: flex;
     list-style-type: none; 
     
@@ -36,18 +36,23 @@ nav li {
     font-size: 18px;
     top: 22px;
     right: 50px;
-}
-.megamenu li{
+} 
+.megamenu li {
     position: relative;
 }
-.submenu li{
+.submenu{
     position: absolute;
-    top: 50px;
-    left: 110px;
-    background-color: aqua;
-    margin: 0 50px;
-    padding: 40px;
-}
+    top:30px;
+    right:-140px; 
+    padding: 10px;
+    font-size: 18px;
+    background-color: grey;
+    /* display: flex; */
+    list-style-type: none;
+} 
 header nav > ul  li:hover .megamenu{
-    display: flex;
-}   
+    /* display: flex; */
+}  
+.megamenu > li:hover .submenu{
+    /* display: flex; */
+}
