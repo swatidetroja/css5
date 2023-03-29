@@ -11,8 +11,7 @@ body{
     font-family: sans-serif;
 }   
 #header{
-    background-color: rgb(240,240,240);
-    color: #777777; 
+    background-color: rgb(240,240,240);  
 }
 .main-header{  
     height: 40px;
@@ -20,7 +19,6 @@ body{
     text-align: center;
     justify-content: space-between;
 }
-
 .header-left ul{
     display: flex;
     list-style-type: none;
@@ -73,6 +71,51 @@ body{
 }
 li:last-child::after {
     display: none;
+}
+/************************************************/
+#top-header{
+    background-color: white;
+}
+.header-top-left{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding-top: 20px;
+}
+.header-mobile ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;  
+}
+.header-mobile ul li{
+    padding:10px 20px;
+    position: relative;
+}
+.header-mobile ul li a{
+    color: #333333;
+    font-weight: 100;
+    text-decoration: none;
+}
+.header-mobile ul li a img{
+    width: 20px;
+    height: 20px;
+}
+.header-mobile li::after{
+    content: '';
+    width: 1px;
+    height: 18px;
+    background-color: #c7c2c2;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+#bottom-header{
+
+}
+.cart{
+    width:150px;
+    height: 25px;
+    background-color: rgb(138, 214, 80);
 }
 /*************************************************/
 .container .Furniture{

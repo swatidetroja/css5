@@ -58,17 +58,17 @@ header{
     background-color: #0e1724;
 }
 .top-hero ul{
-    display: flex;
-    padding: 16px 0;  
+    display: flex; 
 }
 .top-hero a{
     color: white;
     display: inline-block;
     margin-right: 20px;
     text-decoration: none;
+    padding: 12px 0;
 }
 /**********************************************/
-.top-hero ul > li{
+.top-hero .container > ul > li{
     position: relative;
 }
 .submenu li a{
@@ -79,25 +79,21 @@ header{
 .submenu2 li a i{
     font-size: 11px;
 }
-.submenu li{
-    padding: 2px 12px;
+.submenu li a{
+    padding: 5px 8px;
 }
 .top-hero .submenu{
     display:none;
 }
 .submenu{
     position: absolute;
-    top: 40px;
+    top: 37px;
     width: 153px;
     font-size: 14px;
-    line-height: 1.49;
     background-color: white;
     border-radius: 5px;
     z-index: 99;
 } 
-.submenu1 li{
-    padding: 2px 12px;
-}
 .submenu > li {
     position: relative;
 }
@@ -106,10 +102,9 @@ header{
 }
 .submenu1{
     position: absolute;
-    top: -16px;
+    top: 0;
     left: 150px;
     font-size: 14px;
-    line-height: 1.49;
     background-color:white;
     border-radius: 5px;
     width: 330px;   
@@ -120,35 +115,29 @@ header{
 .submenu1 > li{
     position: relative;
 }
-.submenu2 li{
-    padding: 2px 12px;
-}
 .submenu2{
     position: absolute;
-    top: -16px;
+    top: 0;
     left: 330px;
     border-radius: 5px;
     font-size: 14px;
-    line-height: 1.49;
     background-color: white;
     width: 320px;  
-
 } 
 .submenu1 li a::before{
     content: '';
     width: 1px;
     position: absolute;
-    height: 40px;
+    height: 25px;
     background-color: grey;
     top: 2px;
     left: 0;
-    
 }
-.submenu2 > li > a::before{
+.submenu2 li a::before{
     content: '';
     width: 1px;
     position: absolute;
-    height: 170px;
+    height: 48px;
     background-color: grey;
     top: 2px;
     left: 0;  
@@ -160,7 +149,6 @@ header{
     display: block;
 }
 .submenu1 li:hover .submenu2{
-    height: 400px;
     display: block;
 }
 
@@ -439,9 +427,7 @@ button{
 .freelancer-img, i {
     font-size: 20px;
     display: inline-block;
-    /* padding: 5px; */
     padding-right:15px;
-    margin-bottom: 15px;
 }
 .freelancer-img{
     width:170px;
