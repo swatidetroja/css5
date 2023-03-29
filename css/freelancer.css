@@ -72,56 +72,98 @@ header{
     position: relative;
 }
 .submenu li a{
-    border: 1px solid white;
     color: black;  
-    padding: 0 10px; 
 }
 .submenu li a i,
 .submenu1 li a i,
 .submenu2 li a i{
-    font-size: 12px;
+    font-size: 11px;
+}
+.submenu li{
+    padding: 2px 12px;
 }
 .top-hero .submenu{
-    display:block;
+    display:none;
 }
-.top-hero .submenu{
+.submenu{
     position: absolute;
-    top: 34px;
-    width:160px;
+    top: 40px;
+    width: 153px;
+    font-size: 14px;
+    line-height: 1.49;
     background-color: white;
+    border-radius: 5px;
     z-index: 99;
+} 
+.submenu1 li{
+    padding: 2px 12px;
 }
-.submenu > li{
+.submenu > li {
     position: relative;
 }
 .submenu .submenu1{
-    display:block;
+    display:none;
 }
-.top-hero .submenu1{
+.submenu1{
     position: absolute;
     top: -16px;
-    left: 155px;
+    left: 150px;
+    font-size: 14px;
+    line-height: 1.49;
     background-color:white;
-    width: 320px;
-    padding: 5px;
+    border-radius: 5px;
+    width: 330px;   
 }
 .submenu1 .submenu2{
-    display:block;
+    display:none;
 }
 .submenu1 > li{
     position: relative;
 }
-.submenu2 li a{
-    padding: 5px;
+.submenu2 li{
+    padding: 2px 12px;
 }
 .submenu2{
     position: absolute;
-    top: -5px;
-    left: 315px;
+    top: -16px;
+    left: 330px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.49;
     background-color: white;
-    width: 300px;
-    padding: ;
+    width: 320px;  
+
 } 
+.submenu1 li a::before{
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 40px;
+    background-color: grey;
+    top: 2px;
+    left: 0;
+    
+}
+.submenu2 > li > a::before{
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 170px;
+    background-color: grey;
+    top: 2px;
+    left: 0;  
+}
+.top-hero ul li:hover .submenu{
+    display: block;
+} 
+.submenu li:hover .submenu1{
+    display: block;
+}
+.submenu1 li:hover .submenu2{
+    height: 400px;
+    display: block;
+}
+
 /**************************************************/
 .bottom-hero{
     height: 730px;
