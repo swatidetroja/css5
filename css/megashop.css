@@ -80,7 +80,7 @@ li:last-child::after {
     display: flex;
     align-items: center;
     justify-content:space-between ;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 .header-mobile ul{
     display: flex;
@@ -88,7 +88,7 @@ li:last-child::after {
     padding-top: 10px;  
 }
 .header-mobile ul li{
-    padding:10px 20px;
+    padding:8px 20px;
     position: relative;
 }
 .header-mobile ul li a{
@@ -96,9 +96,10 @@ li:last-child::after {
     font-weight: 100;
     text-decoration: none;
 }
-.header-mobile ul li a img{
-    width: 20px;
-    height: 20px;
+.header-mobile img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
 }
 .header-mobile li::after{
     content: '';
@@ -140,7 +141,9 @@ li:last-child::after {
     position: absolute;
     top: 40px;
     left: 0;
+    width: 260px;
     line-height: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.068);
     background-color:  #F6F6F6;
     border-radius: 3px;
 }
@@ -160,8 +163,8 @@ li:last-child::after {
 }
 .submenu1{
     position: absolute;
-    top: 35px;
-    left: 220px;
+    top: 0;
+    left: 240px;
     line-height: 18px;
     background-color:  #F6F6F6;
     border-radius: 3px;
@@ -175,8 +178,8 @@ li:last-child::after {
 }
 .submenu2{
     position: absolute;
-    top: 35px;
-    left: 220px;
+    top: 0;
+    left: 240px;
     line-height: 18px;
     background-color: #F6F6F6;
     border-radius: 3px;
@@ -189,7 +192,7 @@ li:last-child::after {
 }
 .submenu3{
     position: absolute;
-    top: 35px;
+    top: 0;
     left: 240px;
     line-height: 18px;
     background-color:#F6F6F6;
@@ -200,6 +203,15 @@ li:last-child::after {
 } 
 .submenu li:hover .submenu1{
     display: block;
+}
+.submenu li{
+    position: relative;
+}
+.submenu li a i{
+    position: absolute;
+    font-size: 12px;
+    top: 10px;
+    right: 2px;
 }
 .submenu1 li:hover .submenu2{
     display: block;
